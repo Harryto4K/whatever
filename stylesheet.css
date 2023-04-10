@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow; 
+    height: 90vh; 
+}
+
+button {
+    display: flex; 
+    width: 10%;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    background-color: red; 
+    box-shadow: 0 9px #999;
+    border-radius: 15px;
+    border: none;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #cd0000;
+}
+
+button:active {
+    background-color: #cd0000;
+    box-shadow: 0 5px red;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
